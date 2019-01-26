@@ -1,0 +1,39 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>kalkulator</title>
+</head>
+<body>
+   
+    
+   <h1 id="header">KALKULATOR</h1> 
+   <input id=wyswietlacz type=text value=0> </input>
+   <br>
+   <br>
+    
+    <button onclick=back();>&lt;--</button><button onclick=CE();>CE</button><button onclick=czysc()>C</button><button onclick=dzialanie("/")>/</button>
+    
+    <br>
+    
+    <button  class="cyfra" onclick=przycisk(7);>7</button><button class="cyfra" onclick=przycisk(8);>8</button><button class="cyfra" onclick=przycisk(9);>9</button><button onclick=dzialanie("*")>*</button>
+    
+    <br>
+    
+    <button class="cyfra" onclick=przycisk(4);>4</button><button class="cyfra" onclick=przycisk(5);>5</button><button class="cyfra" onclick=przycisk(6);>6</button><button onclick=dzialanie("-")>-</button>
+    
+    <br>
+    
+    <button class="cyfra" onclick=przycisk(1);>1</button><button class="cyfra" onclick=przycisk(2);>2</button><button class="cyfra" onclick=przycisk(3);>3</button><button onclick=dzialanie("+")>+</button>
+    
+    <br>
+    <button onclick=ujemne();>+/-</button><button class="cyfra" onclick=przycisk(0);>0</button><button onclick=kropka();>.</button><button onclick=rownasie();>=</button>
+    
+    <script>
+    var h = document.getElementById("header");
+   
+    
+    </script>
+    
+    </body>
+</html>

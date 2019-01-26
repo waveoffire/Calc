@@ -1,0 +1,40 @@
+
+button {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color:lightblue;
+    border: 1px solid darkblue;
+    transition: background-color 0.5s;
+}
+
+
+
+button.cyfra{
+    background-color: cyan;
+    
+}
+button:hover{
+    background-color: grey;
+    transform:scale(1.1);
+}
+button.cyfra:hover{
+    background-color: grey;
+}
+
+input {
+    box-sizing: border-box;
+    width: 200px;
+    font-size: 25px;
+    background-color:lightgrey;
+    border: 1px solid darkgrey;
+    text-align: right;
+    padding: 2px 5px 2px 5px;
+}
+
+
+h1 {
+    font-family: cursive;
+    color: red;
+}
